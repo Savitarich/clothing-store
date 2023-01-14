@@ -1,0 +1,143 @@
+.root .nav {
+  background-color: #EBD96B;
+  padding: 10px 0;
+}
+.root .nav button {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  transition: all 0.2s;
+}
+.root .nav button:hover {
+  background-color: #363636;
+  color: #fff;
+}
+.root .content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  padding-top: 30px;
+}
+.root .info h2 {
+  margin-bottom: 15px;
+}
+.root .info .costBlock {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+.root .info .newCost {
+  font-size: 24px;
+  font-weight: 600;
+}
+.root .info .oldCost {
+  font-size: 20px;
+  -webkit-text-decoration: 0.5px line-through;
+          text-decoration: 0.5px line-through;
+}
+.root .info .sizeBlock {
+  padding-top: 10px;
+}
+.root .info .sizeBlock h4 {
+  margin-bottom: 5px;
+}
+.root .info .sizeBlock ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.root .info .sizeBlock ul li {
+  cursor: pointer;
+  text-align: center;
+  padding: 5px 10px;
+  min-width: 70px;
+  border: 1px solid #363636;
+  transition: all 0.2s;
+}
+.root .info .sizeBlock ul li:hover {
+  background-color: #363636;
+  color: #fff;
+}
+.root .info .description {
+  padding-top: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.root .info .btnToBasket {
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #363636;
+  transition: all 0.2s;
+}
+.root .info .btnToBasket:hover {
+  background-color: #363636;
+  color: #fff;
+  border: 1px solid #363636;
+}
+.root .info table {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.root .info table td {
+  padding: 5px;
+  color: #363636;
+  border: 1px solid #363636;
+}
+.root .info table td-left {
+  background-color: #363636;
+  color: #FFFFFF;
+  padding-right: 90px;
+}
+
+@media (max-width: 880px) {
+  .info h2 {
+    font-size: 24px;
+  }
+  .info .description {
+    padding-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .info table td {
+    font-size: 16px;
+  }
+}
+@media (max-width: 750px) {
+  .root .content {
+    display: block;
+  }
+  .root .content .sliderWrap {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .root .content .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .root .content .info .description {
+    max-width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .content {
+    text-align: center;
+  }
+  .info table td {
+    font-size: 14px;
+  }
+  .info .sizeBlock {
+    padding-top: 10px;
+  }
+  .info .sizeBlock h4 {
+    margin-bottom: 5px;
+  }
+  .info .sizeBlock ul {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=ProductPage.module.css.map */

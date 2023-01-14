@@ -1,0 +1,25 @@
+.CatalogListRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+}
+
+@media (max-width: 952px) {
+  .CatalogListRow {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+  }
+}
+@media (max-width: 713px) {
+  .CatalogListRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 485px) {
+  .CatalogListRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=CatalogList.module.css.map */

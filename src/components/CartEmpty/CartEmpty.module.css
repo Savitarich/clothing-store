@@ -1,0 +1,30 @@
+.cartEmpty {
+  padding: 50px 0;
+  text-align: center;
+}
+.cartEmpty h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.cartEmpty p {
+  margin-bottom: 20px;
+}
+.cartEmpty img {
+  width: 340px;
+}
+
+@media (max-width: 481px) {
+  .cartEmpty {
+    padding: 30px 0;
+  }
+  .cartEmpty h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .cartEmpty p {
+    font-size: 18px;
+  }
+  .cartEmpty img {
+    width: 260px;
+  }
+}/*# sourceMappingURL=CartEmpty.module.css.map */

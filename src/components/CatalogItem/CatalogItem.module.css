@@ -1,0 +1,75 @@
+.box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.box img {
+  max-width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mainInfo {
+  max-width: 220px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainInfo button {
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #363636;
+  color: #fff;
+  transition: all 0.2s;
+  border: 1px solid #363636;
+}
+.mainInfo button:hover {
+  background-color: #fff;
+  color: #363636;
+}
+
+.costs {
+  max-width: 240px;
+}
+
+.oldCost {
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.newCost {
+  font-weight: 600;
+}
+
+.nameItem {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 240px;
+}
+
+.sizesList {
+  max-width: 240px;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.sizesList li {
+  min-width: 70px;
+  padding: 5px 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #363636;
+}
+.sizesList li:hover {
+  background-color: #363636;
+  color: #fff;
+}/*# sourceMappingURL=CatalogItem.module.css.map */

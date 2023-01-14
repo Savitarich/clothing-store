@@ -1,0 +1,16 @@
+.root .nav {
+  background-color: #EBD96B;
+  padding: 10px 0;
+}
+.root .nav button {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  transition: all 0.2s;
+}
+.root .nav button:hover {
+  background-color: #363636;
+  color: #fff;
+}/*# sourceMappingURL=Cart.module.css.map */

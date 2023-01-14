@@ -1,0 +1,17 @@
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: black;
+}
+.footer a {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+@media (max-width: 420px) {
+  .footer a {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

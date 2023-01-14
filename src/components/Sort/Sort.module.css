@@ -1,0 +1,46 @@
+.sort {
+  font-size: 20px;
+  position: relative;
+}
+
+.sortInfo span {
+  color: #c2185b;
+  cursor: pointer;
+  border-bottom: 1px dashed #c2185b;
+}
+
+.sortPopup {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  max-width: 340px;
+}
+.sortPopup ul {
+  overflow: hidden;
+}
+.sortPopup ul li {
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.sortPopup ul li:hover {
+  background-color: rgba(254, 95, 30, 0.05);
+  color: #363636;
+}
+
+.active {
+  font-weight: bold;
+  background-color: #DE9A9A;
+  color: #fff;
+}
+
+@media (max-width: 422px) {
+  .sortInfo {
+    text-align: center;
+  }
+}/*# sourceMappingURL=Sort.module.css.map */

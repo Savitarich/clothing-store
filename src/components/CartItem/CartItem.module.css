@@ -1,0 +1,77 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid darkgray;
+  border-top: 1px solid darkgray;
+}
+.wrap .info {
+  display: flex;
+  align-items: center;
+}
+.wrap .info img {
+  margin-right: 10px;
+  width: 80px;
+}
+.wrap .info .textInfo {
+  max-width: 220px;
+}
+.wrap .info .textInfo h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.wrap .decidedSize {
+  color: darkgray;
+  font-size: 20px;
+}
+.wrap .countItems {
+  display: flex;
+  align-items: center;
+}
+.wrap .countItems span {
+  padding: 0 5px;
+}
+.wrap .countItems .icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  fill: darkgray;
+  transition: all 0.3s;
+}
+.wrap .countItems .icon:hover {
+  fill: #000;
+}
+.wrap .iconClear {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  fill: darkgray;
+  transition: all 0.3s;
+}
+.wrap .iconClear:hover {
+  fill: #000;
+}
+@media (max-width: 491px) {
+  .wrap .info img {
+    width: 40px;
+    margin-right: 5px;
+  }
+  .wrap .info .textInfo {
+    max-width: 220px;
+  }
+  .wrap .info .textInfo h3 {
+    font-size: 14px;
+  }
+  .wrap .info .textInfo p {
+    font-size: 14px;
+  }
+  .wrap .countItems {
+    display: flex;
+    align-items: center;
+  }
+  .wrap .countItems span {
+    padding: 0 1px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=CartItem.module.css.map */
