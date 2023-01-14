@@ -13,7 +13,7 @@ import { Footer } from "./components/Footer";
 export const App: React.FC = () => {
     return (
         <div className='App'>
-            <Router>
+            <Router basename='/clothing-store'>
                 <Header></Header>
                 <main>
                     <Routes>
